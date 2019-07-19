@@ -7,8 +7,9 @@ const GifSearch = ({ search, input }) => {
         className="form-control"
         type="text"
         onChange={search}
-        placeholder="search fer sum gifs ya'll"/>
-      </div>
+        placeholder="search fer sum gifs ya'll"
+      />
+    </div>
   );
 }
 
