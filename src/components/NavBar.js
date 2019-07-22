@@ -7,14 +7,11 @@ function NavBar(props){
   }
   
   return (
-    <nav className={`navbar ${colors[props.color]}`}>
-      <div className='container-fluid'>
-        <div className='navbar-header'>
+    <nav className="navbar">
           <a className='navbar-brand'>
             { props.title }
           </a>
-        </div>
-      </div>
+
     </nav>
   )
 }

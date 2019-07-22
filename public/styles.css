@@ -1,0 +1,68 @@
+body {
+  display: flex;
+}
+
+#container {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 20px;
+  background: rgb(65, 65, 65);
+  height: 50px;
+  border-radius: 30px;
+  color: white;
+}
+
+.navbar:hover {
+  background: grey;
+}
+
+.navbar-brand {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.div-list {
+  width: 60vw;
+  margin: 20px;
+}
+
+.search-box {
+  width: 35vw;
+  margin: 100px 20px 20px 20px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-field {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 50px;
+  border: 2px solid rgb(65, 65, 65);
+  border-radius: 50px;
+  padding: 0 10px;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.button-submit {
+  width: 200px;
+  height:40px;
+  font-size: 1em;
+  border-radius: 50px;
+}
